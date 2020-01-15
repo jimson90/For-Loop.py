@@ -1,0 +1,78 @@
+#Hello, today I will be trying to master to the concept of For Loops in python. Thanks
+
+
+#Training 1
+
+Gym = ["Barbell", "Dumbell", "Treadmill", "Stairmaster", "Basketball", "Pullup Bar"]
+for i in Gym:
+  print(i)
+  
+#This for loop will print out the list under the variable name "Gym"
+
+
+#Training 2
+
+Gym = ["Barbell", "Dumbell", "Treadmill", "Stairmaster", "Basketball", "Pullup Bar"]
+for i in Gym:
+  if i == "Treadmill":
+    break
+  print(i)
+    
+#Using a break statement to stop the Looping cycle
+
+
+#Training 3
+
+Gym = ["Barbell", "Dumbell", "Treadmill", "Stairmaster", "Basketball", "Pullup Bar"]
+for i in Gym:
+  if i == "Treadmill":
+    continue
+  print(i)
+  
+#Using a continue statement to skip over the word "Treadmill"
+
+#Training 4
+
+for p in range(10):
+  print(p)
+  
+#Utlizing the range function in the for loop to print out numbers 0 to 9
+
+
+#Training 5
+
+for o in range(10,20):
+  print(o)
+  
+#This will print 10 to 19
+
+
+#Training 6
+
+for u in range(10,20,2):
+  print(u)
+  
+#This will print in increments of 2 (10,12,14.....)
+
+
+#Training 7
+
+for j in range(17):
+  print(j)
+else:
+  print("Finished")
+
+#This will print out 0-16. When the looping is done it will print out "Finished". Using an Else keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
